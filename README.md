@@ -1,4 +1,4 @@
-# auth_ui
+# Lj News
 
 A new Flutter project.
 
