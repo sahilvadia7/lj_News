@@ -27,3 +27,8 @@ LJNews is a dynamic mobile application designed to keep the college community in
 <img align="left" width="250" height="500" src="Screenshot_20240410-144910_Lj News.png">
 <img align="left" width="250" height="500" src="Screenshot_20240410-144903_Lj News.png">
 
+# info:
+This application was created as part of our University Project for 1st year (2nd Sem) of IMCA. in Lj Computer Application University. Following are the team members who worked on this project:
+> salomi Gadhiya
+
+Please feel free to open an issue if you find any bugs or have any suggestions and don't forget to star the repo if you like it.
