@@ -1,4 +1,4 @@
-# Lj News
+# LJNews: College News Application in Flutter
 
 LJNews is a dynamic mobile application designed to keep the college community informed and engaged with the latest news, events, and updates from the campus and beyond. Developed using Flutter, LJNews offers a seamless and intuitive user experience across both iOS and Android platforms.
 
