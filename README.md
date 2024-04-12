@@ -1,11 +1,35 @@
-# auth_ui
+# LJNews: College News Application in Flutter
 
-A new Flutter project.
+LJNews is a dynamic mobile application designed to keep the college community informed and engaged with the latest news, events, and updates from the campus and beyond. Developed using Flutter, LJNews offers a seamless and intuitive user experience across both iOS and Android platforms.
+
+# Features:
+
+- News Feed: LJNews provides a curated feed of news articles, announcements, and updates relevant to the college community. Users can scroll through the feed to stay informed about campus events, academic updates, sports news, and more.
+
+- Categories: The app categorizes news articles into various sections such as post, Headlines, Events, lost, and found allowing users to easily navigate to their areas of interest.
+  
+# info:
+This application was created as part of our University Project for 1st year (2nd Sem) of IMCA. in Lj Computer Application University. Following are the team members who worked on this project:
+> salomi Gadhiya
+
+Please feel free to open an issue if you find any bugs or have any suggestions and don't forget to star the repo if you like it.
 
 ## Preview
 
-<img src="https://github.com/ikram-khani/auth_ui/assets/96640983/b32cb26d-7ce7-45e5-b82d-be45e85d488a" width="250">   <img src="https://github.com/ikram-khani/auth_ui/assets/96640983/fcf90e0b-2a8b-466a-a23f-8e941a8cfa23" width="250"> </br>
-<img src="https://github.com/ikram-khani/auth_ui/assets/96640983/c9fd8cea-c765-4f10-a59a-23e1cc470ef3" width="250">  <img src="https://github.com/ikram-khani/auth_ui/assets/96640983/eae877ae-67bc-45a7-bf8c-86c6882d86a8" width="250"> </br>
-<img src="https://github.com/ikram-khani/auth_ui/assets/96640983/081975c2-0d8a-47ee-a83f-a4806e27c0c6" width="250">   <img src="https://github.com/ikram-khani/auth_ui/assets/96640983/4ae87eed-cab8-4b29-bdc9-168d7c643346" width="250"> </br>
-<img src="https://github.com/ikram-khani/auth_ui/assets/96640983/2143b5d2-47ef-4be0-83c5-d42cf82c334f" width="250">    <img src="https://github.com/ikram-khani/auth_ui/assets/96640983/aeb062e3-ba8d-4df3-a3ef-75d5c4ed1b9d" width="250">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144920_Lj News.png">
+
+<img align="left" width="250" height="500" src="Screenshot_20240410-144942_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-145040_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-145057_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-145131_Lj News.png">
+
+<img align="left" width="250" height="500" src="Screenshot_20240410-144630_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144645_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144711_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144737_Media picker.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144835_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144856_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-145635_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144910_Lj News.png">
+<img align="left" width="250" height="500" src="Screenshot_20240410-144903_Lj News.png">
 
