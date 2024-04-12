@@ -356,7 +356,7 @@ class SecondRoute extends StatelessWidget {
                                     child: Column(
                                       children: [
                                         SizedBox(
-                                          height: 350,
+                                          height: 300,
                                           child: SingleChildScrollView (
                                             child: Text('${data['description']}',
                                               style: TextStyle(fontSize: 14,
@@ -373,36 +373,49 @@ class SecondRoute extends StatelessWidget {
                                     ),
                                   ),
                                   Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 8.0,vertical: 5),
-                                    child: Text("Publisher: "+'${data['publisher']}',
-                                      style: TextStyle(fontSize: 16,
-                                          fontWeight: FontWeight.bold,
-                                          decoration: TextDecoration.none,
-                                          color: Colors.black),),
-                                  ),
-                                  Padding(
-                                    padding: const EdgeInsets.symmetric(
-                                        horizontal: 8.0),
-                                    child: Row(
+                                    padding: const EdgeInsets.symmetric(vertical: 40.0),
+                                    child: Column(
 
                                       children: [
-                                        Text('${data['date']}',
-                                          style: TextStyle(fontSize: 12,
-                                              fontWeight: FontWeight.bold,
-                                              decoration: TextDecoration.none,
-                                              color: Colors.black),),
-                                          Spacer(),
-                                          Text('${data['time']}',
-                                            style: TextStyle(fontSize: 12,
-                                              fontWeight: FontWeight.bold,
-                                              decoration: TextDecoration.none,
-                                              color: Colors.black,
-                                            ),),
+                                        Align(
+                                          alignment: Alignment.centerLeft,
+                                          child:  Padding(
+                                            padding: const EdgeInsets.symmetric(
+                                                horizontal: 8.0),
+                                            child: Text("Publisher: "+'${data['publisher']}',
+                                              style: TextStyle(fontSize: 16,
+                                                  fontWeight: FontWeight.bold,
+                                                  decoration: TextDecoration.none,
+                                                  color: Colors.black),),
+                                          ),
+
+                                        ),
+
+                                        Padding(
+                                          padding: const EdgeInsets.symmetric(
+                                              horizontal: 8.0),
+                                          child: Row(
+
+                                            children: [
+                                              Text('${data['date']}',
+                                                style: TextStyle(fontSize: 12,
+                                                    fontWeight: FontWeight.bold,
+                                                    decoration: TextDecoration.none,
+                                                    color: Colors.black),),
+                                                Spacer(),
+                                                Text('${data['time']}',
+                                                  style: TextStyle(fontSize: 12,
+                                                    fontWeight: FontWeight.bold,
+                                                    decoration: TextDecoration.none,
+                                                    color: Colors.black,
+                                                  ),),
+                                            ],
+                                          ),
+
+
+                                        ),
                                       ],
                                     ),
-
-
                                   ),
                                   // Padding(
                                   //   padding: const EdgeInsets.symmetric(

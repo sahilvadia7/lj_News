@@ -25,7 +25,7 @@ class _add_postState extends State<add_post> {
   late String img_uploadBy;
   late String url,title;
   final formKey = new GlobalKey<FormState>();
-  static const List<String> list = <String>['Post','Headlines', 'Events', 'Lost', 'Found','General','Sports'];
+  static const List<String> list = <String>['Post','Headlines', 'Events', 'Lost', 'Found'];
   // Define a variable to track upload status
   bool isUploading = false;
 

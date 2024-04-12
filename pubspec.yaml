@@ -43,8 +43,8 @@ dependencies:
   intl_phone_field: ^3.2.0
   provider: ^6.0.5
   url_launcher: ^6.0.9
-  url_launcher_platform_interface: ^2.1.0
   profile: ^0.0.1
+
 
 dev_dependencies:
   flutter_lints: ^2.0.0

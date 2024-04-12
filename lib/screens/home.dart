@@ -14,6 +14,9 @@ import 'package:google_sign_in/google_sign_in.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'bottomNavScreens/add_post.dart';
 import 'package:auth_ui/screens/Drawer/userprofile.dart';
+// import 'package:fluttertoast/fluttertoast.dart';
+
+
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
@@ -113,31 +116,9 @@ class _HomeScreenState extends State<HomeScreen> {
       body: Center(
         child: widgetList[_currentIndex],
       ),
-      appBar: AppBar(
-
-        elevation: 10,
-        titleSpacing: -5,
-
-        title: const Text(
-            'Lj News',
-          style: TextStyle(fontWeight: FontWeight.w500),
-        ),
-        actions: [
-          // Icon(Icons.more_vert),
-
-          // const Text(
-          //   'Log out',
-          //   style:
-          //       TextStyle(fontWeight: FontWeight.w600, color: Colors.blueGrey),
-          // ),
-          // IconButton(
-          //   onPressed: _signOut,
-          //   icon: const Icon(Icons.logout),
-          //   color: Theme.of(context).primaryColor,
-          // ),
-        ],
-      ),
-      drawer: Drawer(
+    appBar: AppBar(
+      title: Text("Lj News"),
+    ), drawer: Drawer(
         child: Container(
           color: Colors.white54,
           child: ListView(
@@ -158,14 +139,27 @@ class _HomeScreenState extends State<HomeScreen> {
                 leading: Icon(Icons.account_tree),
                 title: Text("Git Repo",style: TextStyle(fontSize: 15),),
                 onTap: (){
-                  _gitRepo("https://flutter.dev");
+                  const link = "https://github.com/sahilvadia7/lj_News";
+                  launchUrl(
+                      Uri.parse(link),
+                      mode: LaunchMode.inAppWebView
+                  );
                 },
               ),
 
               ListTile(
                 leading: Icon(Icons.verified),
                 title: Text("Version 1.0",style: TextStyle(fontSize: 15),),
-
+              onTap: () {
+                // Fluttertoast.showToast(
+                //   msg: "This is a toast message",
+                //   toastLength: Toast.LENGTH_SHORT,
+                //   gravity: ToastGravity.BOTTOM,
+                //   backgroundColor: Colors.black54,
+                //   textColor: Colors.white,
+                //   fontSize: 16.0,
+                // );
+              }
               ),
               ListTile(
                 leading: Icon(Icons.logout),
@@ -256,6 +250,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
     );
   }
+
 
 
 }
