@@ -103,8 +103,26 @@ class _add_postState extends State<add_post> {
   Widget build(BuildContext context) {
     return Scaffold(
       // resizeToAvoidBottomInset : false,
+
       appBar:  AppBar(
-        title: new Text("Upload image"),
+        title: Row(
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child:
+              Expanded(
+                child: Row(
+                  children: [
+                    Text("A",
+                      style: TextStyle(fontSize: 25,color: Colors.blueAccent),),
+                    Text("dd Post",style: TextStyle(fontSize: 18),)
+                  ],
+                ),
+
+              ),
+            ),
+          ],
+        ),
         centerTitle: true,
       ),
 

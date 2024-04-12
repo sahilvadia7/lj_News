@@ -121,6 +121,21 @@ class _events_state extends State<events> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child:
+              Expanded(
+                child: Row(
+                  children: [
+                    Text("E",
+                      style: TextStyle(fontSize: 25,color: Colors.blueAccent),),
+                    Text("vents",style: TextStyle(fontSize: 18),)
+                  ],
+                ),
+
+              ),
+            ),
             // Padding(
             //   padding: const EdgeInsets.symmetric(horizontal: 120.0),
             //   child: Text("Top News", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),

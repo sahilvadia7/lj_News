@@ -122,10 +122,22 @@ class _home_nav extends State<home_nav> {
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Padding(
-            //   padding: const EdgeInsets.symmetric(horizontal: 120.0),
-            //   child: Text("Top News", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
-            // ),
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child:
+              Expanded(
+                child: Row(
+                  children: [
+                    Text("H",
+                    style: TextStyle(fontSize: 25,color: Colors.blueAccent),),
+                    Text("ome",style: TextStyle(fontSize: 18),)
+                  ],
+                ),
+
+              ),
+            ),
+
             Expanded(
                 child: FirebaseAnimatedList(
                   query: postRef,
@@ -256,7 +268,9 @@ class _home_nav extends State<home_nav> {
                             ),
                           ),
                         ),
+
                       );
+
                     }
                 },
                 ),
@@ -264,6 +278,7 @@ class _home_nav extends State<home_nav> {
           ],
         ),
       ),
+
     );
   }
 
@@ -279,9 +294,12 @@ class SecondRoute extends StatelessWidget {
 
     return CupertinoPageScaffold(
       backgroundColor: Color(0xfff9fafc),
+                    navigationBar: CupertinoNavigationBar(
+                      leading: BackButton(),
+                    ),
 
                     child:  Padding(
-                      padding: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 50),
+                      padding: const EdgeInsets.symmetric(horizontal: 8.0,vertical: 100),
 
                       child: CupertinoPageScaffold(
                         child: Padding(
@@ -338,7 +356,7 @@ class SecondRoute extends StatelessWidget {
                                     child: Column(
                                       children: [
                                         SizedBox(
-                                          height: 451,
+                                          height: 350,
                                           child: SingleChildScrollView (
                                             child: Text('${data['description']}',
                                               style: TextStyle(fontSize: 14,

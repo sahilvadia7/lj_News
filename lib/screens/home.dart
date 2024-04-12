@@ -11,6 +11,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 import 'package:google_sign_in/google_sign_in.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'bottomNavScreens/add_post.dart';
 import 'package:auth_ui/screens/Drawer/userprofile.dart';
 
@@ -66,6 +67,14 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  Future<void> _gitRepo(String url) async {
+    if (await canLaunch(url)) {
+      await launch(url);
+    } else {
+      throw 'Could not launch $url';
+    }
+  }
+
   @override
   void initState() {
     super.initState();
@@ -105,6 +114,7 @@ class _HomeScreenState extends State<HomeScreen> {
         child: widgetList[_currentIndex],
       ),
       appBar: AppBar(
+
         elevation: 10,
         titleSpacing: -5,
 
@@ -115,16 +125,16 @@ class _HomeScreenState extends State<HomeScreen> {
         actions: [
           // Icon(Icons.more_vert),
 
-          const Text(
-            'Log out',
-            style:
-                TextStyle(fontWeight: FontWeight.w600, color: Colors.blueGrey),
-          ),
-          IconButton(
-            onPressed: _signOut,
-            icon: const Icon(Icons.logout),
-            color: Theme.of(context).primaryColor,
-          ),
+          // const Text(
+          //   'Log out',
+          //   style:
+          //       TextStyle(fontWeight: FontWeight.w600, color: Colors.blueGrey),
+          // ),
+          // IconButton(
+          //   onPressed: _signOut,
+          //   icon: const Icon(Icons.logout),
+          //   color: Theme.of(context).primaryColor,
+          // ),
         ],
       ),
       drawer: Drawer(
@@ -144,6 +154,27 @@ class _HomeScreenState extends State<HomeScreen> {
                   );
                 },
               ),
+             ListTile(
+                leading: Icon(Icons.account_tree),
+                title: Text("Git Repo",style: TextStyle(fontSize: 15),),
+                onTap: (){
+                  _gitRepo("https://flutter.dev");
+                },
+              ),
+
+              ListTile(
+                leading: Icon(Icons.verified),
+                title: Text("Version 1.0",style: TextStyle(fontSize: 15),),
+
+              ),
+              ListTile(
+                leading: Icon(Icons.logout),
+                title: Text("Logout",style: TextStyle(fontSize: 15),),
+                onTap: (){
+                  _signOut();
+                },
+              ),
+
             ],
           ),
         ),
@@ -226,4 +257,6 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 
+
 }
+

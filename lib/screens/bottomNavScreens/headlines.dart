@@ -100,13 +100,27 @@ class _headlines extends State<headlines> {
         padding: const EdgeInsets.symmetric(horizontal: 15.0 ,vertical: 20),
         child: Column(
 
+
+
           mainAxisAlignment: MainAxisAlignment.start,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // Padding(
-            //   padding: const EdgeInsets.symmetric(horizontal: 120.0),
-            //   child: Text("Top News", style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),),
-            // ),
+
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 10),
+              child:
+              Expanded(
+                child: Row(
+                  children: [
+                    Text("H",
+                      style: TextStyle(fontSize: 25,color: Colors.blueAccent),),
+                    Text("ead Line",style: TextStyle(fontSize: 18),)
+                  ],
+                ),
+
+              ),
+            ),
+
             Expanded(
               child: FirebaseAnimatedList(
                 query: postRef.orderByChild('postType').equalTo('Headlines'),
