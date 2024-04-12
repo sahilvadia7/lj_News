@@ -17,19 +17,19 @@ Please feel free to open an issue if you find any bugs or have any suggestions a
 ## Preview
 
 <img align="left" width="250" height="500" src="Screenshot_20240410-144920_Lj News.png">
-
 <img align="left" width="250" height="500" src="Screenshot_20240410-144942_Lj News.png">
 <img align="left" width="250" height="500" src="Screenshot_20240410-145040_Lj News.png">
 <img align="left" width="250" height="500" src="Screenshot_20240410-145057_Lj News.png">
 <img align="left" width="250" height="500" src="Screenshot_20240410-145131_Lj News.png">
 
-<img align="left" width="250" height="500" src="Screenshot_20240410-144630_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144645_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144711_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144737_Media picker.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144835_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144856_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-145635_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144910_Lj News.png">
-<img align="left" width="250" height="500" src="Screenshot_20240410-144903_Lj News.png">
+
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/c9d609bd-7919-4404-8620-cf0048ed6709">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/8af67c95-ad10-4e4e-838e-e0636e7ed44e">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/02de3dcb-b21a-4c23-a0de-3762c43c13de">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/43ffe998-8c99-4d05-bbf1-6496f636a201">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/c016543f-cbaf-4d41-bcac-ab71afd5017a">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/63703763-0bce-4024-95dc-76e99dac65a7">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/d50bdab4-af03-451a-8a2a-83eff512dd06">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/ff0d42a2-3552-4a70-a7df-66638711c718">
+<img align="left" width="250" height="500" src="https://github.com/sahilvadia7/lj_News/assets/83268961/3ff5abf7-d7bc-4234-ae3f-5fc2005d008a">
 
