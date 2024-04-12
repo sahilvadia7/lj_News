@@ -114,7 +114,7 @@ class _headlines extends State<headlines> {
                   children: [
                     Text("H",
                       style: TextStyle(fontSize: 25,color: Colors.blueAccent),),
-                    Text("ead Line",style: TextStyle(fontSize: 18),)
+                    Text("eadlines",style: TextStyle(fontSize: 18),)
                   ],
                 ),
 
